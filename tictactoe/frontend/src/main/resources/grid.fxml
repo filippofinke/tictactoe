@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ch.supsi.tictactoe.controller.GameController"
+            prefHeight="400.0" prefWidth="600.0"
+    fx:id="anchorPane"
+>
+    <Button fx:id="b00" alignment="CENTER" focusTraversable="false" layoutX="14.0" layoutY="14.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b01" alignment="CENTER" focusTraversable="false" layoutX="209.0" layoutY="14.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b02" alignment="CENTER" focusTraversable="false" layoutX="404.0" layoutY="14.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b10" alignment="CENTER" focusTraversable="false" layoutX="14.0" layoutY="209.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b11" alignment="CENTER" focusTraversable="false" layoutX="209.0" layoutY="209.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b12" alignment="CENTER" focusTraversable="false" layoutX="404.0" layoutY="209.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b20" alignment="CENTER" focusTraversable="false" layoutX="14.0" layoutY="404.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b21" alignment="CENTER" focusTraversable="false" layoutX="209.0" layoutY="404.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+    <Button fx:id="b22" alignment="CENTER" focusTraversable="false" layoutX="404.0" layoutY="404.0"
+            mnemonicParsing="false" onAction="#buttonAction" prefHeight="182.0" prefWidth="182.0" textAlignment="CENTER">
+        <cursor>
+            <Cursor fx:constant="HAND"/>
+        </cursor>
+        <font>
+            <Font name="Comic Sans MS" size="84.0"/>
+        </font>
+    </Button>
+</AnchorPane>

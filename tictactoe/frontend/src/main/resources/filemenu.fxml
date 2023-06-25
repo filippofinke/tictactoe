@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<Menu mnemonicParsing="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.supsi.tictactoe.controller.FileMenuController">
+    <MenuItem fx:id="miNew" mnemonicParsing="false" onAction="#newGame"/>
+    <MenuItem fx:id="miOpen" mnemonicParsing="false" onAction="#openGame"/>
+    <SeparatorMenuItem mnemonicParsing="false"/>
+    <MenuItem fx:id="miSave" mnemonicParsing="false" onAction="#saveGame"/>
+    <MenuItem fx:id="miSaveAs" mnemonicParsing="false" onAction="#saveGameAs"/>
+    <SeparatorMenuItem mnemonicParsing="false"/>
+    <MenuItem fx:id="miQuit" mnemonicParsing="false" onAction="#quit"/>
+</Menu>

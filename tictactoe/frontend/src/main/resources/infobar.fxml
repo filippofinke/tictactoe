@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<GridPane xmlns:fx="http://javafx.com/fxml" alignment="CENTER_LEFT" hgap="10" vgap="10" fx:controller="ch.supsi.tictactoe.controller.InfoBarController">
+    <padding><Insets right="25" bottom="5" left="25"/></padding>
+
+    <Text fx:id="infoBar" GridPane.fillWidth="TRUE" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.halignment="LEFT" GridPane.columnSpan="3"/>
+
+</GridPane>
